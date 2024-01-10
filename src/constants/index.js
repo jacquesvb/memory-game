@@ -1,0 +1,15 @@
+export const CARD_SIZE = { width: 200, height: 200 };
+
+export const GAME_STATUS = {
+  IN_PROGRESS: "IN_PROGRESS",
+  CREATING: "CREATING",
+  SHUFFLING: "SHUFFLING",
+  RESETTING: "RESETTING",
+  FINISHED: "FINISHED"
+};
+
+export const CARD_STATUS = {
+  SELECTED: "SELECTED",
+  MATCHED: "MATCHED",
+  HIDDEN: "HIDDEN"
+};
